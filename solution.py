@@ -23,13 +23,15 @@ def welcome_assignment_answers(question):
         answer = 5
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numberic number":
         answer = 3
+    else:
+        answer = "No question"
     return(answer)
 # Complete all the questions.
 
 
 if __name__ == "__main__":
     #use this space to debug and verify that the program works
-    debug_question = "What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 has generator and use the answer in your code"
+    debug_question = ""
     print(welcome_assignment_answers(debug_question))
 
 ###Questions:
